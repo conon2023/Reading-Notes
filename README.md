@@ -13,7 +13,7 @@ This is a fundamental belief that I can do more and be better than I am through 
 5. Taking a short break when it seems all overwhelming and coming back later on have been known to help.
 (https://www.bing.com/images/search?view=detailV2&ccid=vupylNDk&id=C5FEEDA2D19CE3666245AFFC43A4DDB135A8873D&thid=OIP.vupylNDkkgtcj4-zykCWhAHaDt&mediaurl=https%3a%2f%2fhealthyvoyager.com%2fwp-content%2fuploads%2f2017%2f09%2frelax-05.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.beea7294d0e4920b5c8f8fb3ca409684%3frik%3dPYeoNbHdpEP8rw%26pid%3dImgRaw%26r%3d0&exph=1024&expw=2048&q=free+stock+image+showing+people+relaxing&simid=607997915990995328&FORM=IRPRST&ck=20AE48DBA3A6DE6103DC1A576FC8771D&selectedIndex=0&idpp=overlayview&ajaxhist=0&ajaxserp=0
 7. Consult those knowledgeable in the field when all else fails.   
-![Consult Others](image)
+![Consult Others]![alt text](https://github.com/[chyde20]/[reading-notes]/blob/[branch]/image.jpg?raw=true)
 
 **Chidi Ononye.   
 Tech Education Student
