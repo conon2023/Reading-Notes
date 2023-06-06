@@ -2,7 +2,7 @@ Reading-Notes
 My notes during the Tech Educators Coding Booting 
 
 # GROWTH MINDSET   
-## What is a Growth Mindset?
+_***What is a Growth Mindset?
 This is a fundamental belief that I can do more and be better than I am through hardwork and consistent effort. This belief butresses the notion applied effort towards a goal will yield better dividend than one's inate talents and ablities.   
 
 ## Three (3) Ways to Keep the Growth Mindset Alive
