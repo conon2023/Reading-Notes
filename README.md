@@ -48,7 +48,7 @@ _**ls -l/etc**_
 ls will output a long listing of the directory /etc.
 
 ### Paths
-This is a means to access a particular file or directory in a system. 
+This is a means to access a particular file or directory (location) in the system. 
 
 #### Absolute and Relative Paths ####
 There are 2 types of paths - **absolute and relative**
@@ -98,15 +98,24 @@ Tab completion is simply a mechanism to help us complete the paths we are alread
 
 
 
+## Everything is a File ##
+In order to understand the behavious of Linux as we manage files and directories, it is important to understand that everything is a file basically. 
+Texts, directories are all files. Keyboards are files we read from and monitors are files we read to. 
+
+## Linux - An Extensionless System ##
+In systems like windows, it uses the file extension, a set of 2 - 4 characters after a full stop at the end of the file, (file.exe, file.txt, file.png/gif/jpg, to determine denote what type of file that is. But in Linux, the system actually ignores the extension. Rather, it looks inside the file to determine what type of file it is. Take a a file **chidi.png** for instance, even if I rename it **chidi.txt** or just **chidi**, Linux would still happily treat the file as an image file. This can make it a bit dificult to know what type of file it is in Linux. Luckily, we have a command called **file** which we can use to find this out. And that is: **file [path]
 
 
+## Linux is Case Sensitive
+Unline windows, Linux sees every file and directory as distinct. Also important to note this case sensitivity is when dealing with command options. 
 
+## Spaces in Names
+A space on the command line is how we seperate items. It identies what is the program name as well as each command line argument. Let us say we have a directory call James Monday. A command line \cd James Monday...will return an error. This is beacause Linux see the two as distinct. To deal with this, we can either use **quotes** or the **escape (\)** character. So, it will be **\cd "James Monday"** or **\cd James\ Monday**
+The above will take care of the issue. The back slash removed the special meaning created by the space between James and Monday. 
 
-
-
-
-
-
+## Hidden Files and Directories
+In Linux, we are able to identify a hidden file or directory when its name starts with a **. (full stop)**. To make a file or directory hidden, simple create  or rename it with a .(fullstop) starting it.   
+The command **ls** that we have seen previously will not list hidden files and directories. But when we inclide the line option **-a** it will show hidden files and directories. 
 
 
 
