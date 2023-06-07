@@ -16,34 +16,34 @@ Go to applications and then utilities
 Go to applications. Then go to system or applications and finally to utilities. Someimtes you may be able to right click on the desktop and find the option 'open terminal'. 
 
 ### On Windows:
-An SSH client will be required if you intend to remotely log into another machine. Putty, which is free, is a good one.
+An SSH client will be required if you intend to remotely log into another machine. **Putty**, which is free, is a good one.
 
 ### THE SHELL, BASH 
-The shell, within the terminal, is that part of the operating system that will showcases the terminal's behavior and looks after running or executing. While there are various shells available, the most common is called **bash**, which stands for **Bourne again shell.**
-To know the shell you are using, use a command called **echo** to display a system variable stating it. 
+The shell is within the terminal and it that part of the operating system which showcases the terminal's **behavior and looks** after running or executing. The most common shell is called **bash**, which stands for **Bourne again shell.**
+The command called **echo** will display a system variable stating the shell you are using. 
 
 ### SHORTCUTS
-Once you have entered a command before, use the up and down arrow keys to go through all. To edit the commands, use the left and right arrow keys.
+Once you have entered a command before, you can use the up and down arrow keys to go through all of them. To edit previously entered commands, use the left and right arrow keys.
 
+## Basic Navigation - Exploring the System!
+This is about moving around. Most tasks will generally reference or be able to get to the correct system location. Some of these tasks include: 
 
-## Basic Navigation - Let's Explore the System!
-Navigation is basically about moving around the system. Most tasks will generally reference or be able to get to the correct system location.  
+**PWD** - which stands for **Print Working Directory**. PWD command will always tell the user where he is i.e. It lets the user know what the current or present working directory is. 
 
-**PWD**
-This stands for **Print Working Directory**
-It lets the user know what the current or present working directory is. This command will always tell the user where he is. 
-
-**ls**
-Now we know where we are. It is important we know what is in where we are. This is exaclty what the **list** (ls) command does. 
-Running list with no arguement as we have shown above will simply output a plain listing of our current location. 
-However, there are other ways we could run the list command that will give more powerful outcomes.
+**ls** - the listing command. 
+This **list** (ls) command allows the user know the content of our current location. 
+Running a list with no arguement as shown above will simply output a plain listing of the current location. 
 _Here are a few examples:_
+
 **ls**
-ls in its most basic form will list the contents of our current directory. 
+The command above lists the contents of our current directory. 
+
 _**ls -l**_
-ls with a single line option (-l). This indicates a long listing with various attributes like normal(-) or directory (d); permission for file or directory, number of blocks, owner of the file, group file or directory belongs to, file size, file modification time and actual name of the file or directory. 
+This command has a single line option (-l). It a short listing with various attributes like normal(-) or directory (d); permission for file or directory, number of blocks, owner of the file, group file or directory belongs to, file size, file modification time and actual name of the file or directory. 
+
 _**ls /etc**_
-In this case, ls will not list the current directory but will, instead, list that directories contents. 
+The command above will not list current directory but will, instead, list the directory's contents. 
+
 _**ls -l/etc**_
 ls will output a long listing of the directory /etc.
 
@@ -51,12 +51,11 @@ ls will output a long listing of the directory /etc.
 This is a means to access a particular file or directory (location) in the system. 
 
 #### Absolute and Relative Paths ####
-There are 2 types of paths - **absolute and relative**
 In the **linux system,** the filing system is **hierarchical** The **root directory** is at the very top and denoted by a single slash ( / ). Then there are subdirectories and files may reside in any of these directories. 
 
-**Absolute paths** specify a location (file or directory) in relation to the root directory. It is easy to identify them since they usually begins with a forward slash ( / ). 
+**Absolute paths** specify a location (file or directory) in relation to the root directory. It usually begins with a forward slash ( / ). 
 
-**Relative paths** specify a location (file or directory) in relation to where we currently are in the system. They will not begin with a slash.
+**Relative paths** specify a location (file or directory) in relation to where we currently are in the system and will not begin with a slash.
 
 ## More on Paths
 ~ (tilde) - This is a shortcut for your home directory. eg, if your home directory is /home/ryan then you could refer to the directory Documents with the path /home/ryan/Documents or ~/Documents
@@ -93,25 +92,20 @@ We use the change director (cd) command to move around the path.
 The cd command without any arguement will always take you back to the home directory. 
 
 ## Tab Completion##
-Tab completion is simply a mechanism to help us complete the paths we are already typing. It's kind of an auto complete feature.  
-
-
-
+Tab completion is an auto complete feature that helps us complete the paths we are already typing.
 
 ## Everything is a File ##
-In order to understand the behavious of Linux as we manage files and directories, it is important to understand that everything is a file basically. 
-Texts, directories are all files. Keyboards are files we read from and monitors are files we read to. 
+In the Linux system, it is important to understand that everything is basically a file. 
+Texts, directories are all files. Keyboards are files we read from while monitors are files we read to. 
 
 ## Linux - An Extensionless System ##
-In systems like windows, it uses the file extension, a set of 2 - 4 characters after a full stop at the end of the file, (file.exe, file.txt, file.png/gif/jpg, to determine denote what type of file that is. But in Linux, the system actually ignores the extension. Rather, it looks inside the file to determine what type of file it is. Take a a file **chidi.png** for instance, even if I rename it **chidi.txt** or just **chidi**, Linux would still happily treat the file as an image file. This can make it a bit dificult to know what type of file it is in Linux. Luckily, we have a command called **file** which we can use to find this out. And that is: **file [path]
-
+Sytems like windows use file extensions which is a set of 2 - 4 characters after a full stop at the end of the file. For example we have file.exe, file.txt, file.png/gif/jpg, to determine denote what type of file that is. In Linux, however, the system actually ignores the extension. Rather, it looks inside the file to determine what type of file it is. Take a a file **chidi.png** for instance, even if I rename it **chidi.txt** or just **chidi**, Linux would still happily treat the file as an image file. This can make it a bit dificult to know what type of file it is in Linux. Forunately for users, there is a command called **file** which we can use to find what file it is. And that is: **file [path]
 
 ## Linux is Case Sensitive
-Unline windows, Linux sees every file and directory as distinct. Also important to note this case sensitivity is when dealing with command options. 
+Unline windows, Linux sees every file, directory and command as distinct. In essence, it is case sensitive.  
 
 ## Spaces in Names
-A space on the command line is how we seperate items. It identies what is the program name as well as each command line argument. Let us say we have a directory call James Monday. A command line \cd James Monday...will return an error. This is beacause Linux see the two as distinct. To deal with this, we can either use **quotes** or the **escape (\)** character. So, it will be **\cd "James Monday"** or **\cd James\ Monday**
-The above will take care of the issue. The back slash removed the special meaning created by the space between James and Monday. 
+A space on the command line is how we seperate items. It identies what is the program name as well as each command line argument. Linux does not allow for spaces in directory and file names. This is beacause it will see the two as distinct. To deal with this, we can either use **quotes** or the **escape (\)** character. So, it will be **\cd "James Monday"** or **\cd James\ Monday**
 
 ## Hidden Files and Directories
 In Linux, we are able to identify a hidden file or directory when its name starts with a **. (full stop)**. To make a file or directory hidden, simple create  or rename it with a .(fullstop) starting it.   
